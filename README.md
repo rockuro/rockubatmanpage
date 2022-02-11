@@ -1,1 +1,1 @@
-# rockubatmanpage
+# rockubatmanpage - обучение верстания страницы
