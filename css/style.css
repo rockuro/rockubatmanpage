@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
     padding-top: 18.7rem;
+    padding-bottom: 10.4rem;
     background: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,8 +193,9 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 
-.footer_menu li a {
-    color: #686767;
+.footer_menu li a {    
+    color: #ffffff;
+    opacity: .4;
     text-decoration: none;
     font-size: 1.4rem;
     line-height: 143%;
@@ -209,8 +211,76 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 143%;
 }
 
-
-
 .main_rait-scores {
     display: flex;
 }
+
+.main_discr-wrap {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-slider_wrap { 
+    width: 41.5rem;   
+    display: flex;
+    align-items: center;
+}
+
+
+
+.main_slider-arrow {
+    width: 3.2rem;
+    height: 2.2rem;
+    padding-left: 2.8rem;
+    flex-shrink: 0;
+    cursor: pointer;
+    
+}
+
+.main_tr-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33.1rem;
+    width: 13.2rem;
+    height: 13.2rem;
+    border-radius: 50%;
+    background-color: rgba(21, 21, 21, .5);
+    cursor: pointer;
+}
+
+.main_but-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #151515;
+
+}
+
+.main_slider-slide {
+    position: relative;
+    width: 16rem;
+    height: 10.5rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.main_slider-slide span {
+    position: absolute;
+    left: 1.2rem;
+    bottom: 0.6rem;
+    transform: translate(0, 0);
+    font-size: 1rem;
+    line-height: 120%;
+}
+
+.main_slider-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
